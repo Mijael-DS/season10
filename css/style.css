@@ -1,0 +1,130 @@
+/* degradado lineal */
+div {
+    border: 1px solid black;
+    margin: 5px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#div1 {
+    background: linear-gradient(to right, blue, white);
+}
+
+#div2 {
+    background: linear-gradient(to bottom, green, white);
+}
+
+#div3 {
+    background: linear-gradient(35deg, red, white);
+}
+
+#div4 {
+    background: linear-gradient(to right, blue, #00ffea, white);
+}
+
+#div5 {
+    background: linear-gradient(to right, red 25%, #ff5100 50%, #fbff00 75%, white 100%);
+}
+
+.ejemplo01 {
+    background: linear-gradient(25deg, tomato 30%, skyblue 45%, wheat 70%);
+}
+
+.ejemplo02 {
+    background: linear-gradient(to bottom, yellow, red, green);
+}
+
+.ejemplo03 {
+    background-image: linear-gradient(30deg, rgb(234, 0, 255), rgb(0, 255, 157), rgb(0, 49, 128));
+}
+
+.ejemplo04 {
+    background: linear-gradient(to right, orange 40%, wheat, black);
+}
+
+.ejemplo05 {
+    background: repeating-linear-gradient(30deg, pink, tomato 10%, blue 30%);
+}
+
+/* degradados radiales */
+
+#circulo1 {
+    background: radial-gradient(blue, white);
+}
+#circulo2 {
+    background: radial-gradient(circle, green, white);
+}
+#circulo3 {
+    background: radial-gradient(circle 50px, red, white);
+}
+#circulo4 {
+    background: radial-gradient(circle 100px, blue, #00ffea, white);
+}
+#circulo5 {
+    background: radial-gradient(circle 100px, red 25%, #ff5100 50%, #fbff00 75%, white 100%);
+}
+#circulo6 {
+    background: radial-gradient(circle farthest-corner, blue 25%, #00ffea 75%, white);
+}
+#circulo7 {
+    background: radial-gradient(circle 200px at right, blue 25%, #00ffea 75%, white);
+}
+
+.circular01 {
+    background: radial-gradient(circle, red, black, wheat);
+}
+
+.circular02 {
+    background: radial-gradient(circle 50px, tomato, yellow, green);
+}
+
+.circular03 {
+    background: radial-gradient(circle farthest-corner, #9dff00 30%, #06daff 60%, #b3c3f5 20%);
+}
+
+.circular04 {
+    background-image: repeating-radial-gradient(circle, #00ff1e 20%, #ff00b7 40%, #ffa600 40%);
+}
+
+/* img svg */
+
+#img1 {
+    width: 281px;
+    height: 199px;
+}
+
+#img2 {
+    width: 562px;
+    height: 397px;
+}
+
+#img3 {
+    width: 842px;
+    height: 596px;
+}
+#img4 {
+    width: 1123px;
+    height: 794px;
+}
+
+/* columnas */
+
+.columnas {
+    padding: 25px;
+    column-count: 2;            
+    column-gap: 2em;
+    column-rule: 5px dashed rgb(115, 165, 215);
+    column-width: 150px;
+    text-align: justify;
+}
+
+.columnas p {
+    font-family: 'AbibasMedium';
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* h1, h2 {
+    column-span: all;
+} */

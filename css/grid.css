@@ -1,0 +1,17 @@
+/* fr es fraccion */
+.grid-container {
+    background-color: skyblue;
+    display: grid;
+    grid-template-rows: repeat(1fr 1fr);
+    grid-template-columns: repeat(3, 1fr 2fr);
+    row-gap: 15px;
+    column-gap: 10px;
+    place-content: space-between space-around;/* horizontal y vertical */
+}
+
+.grid-container div {
+    background-color: tomato;
+    text-align: center;
+    color: blueviolet;
+    border: dashed 1px #fff200;
+}
